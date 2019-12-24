@@ -1,10 +1,14 @@
-# WormMap
-The predicted complexes Cytoscape file and elution profile files can be found at https://github.com/BaderLab/EPIC/tree/master/WormMap
-(Make sure to update your Cytoscape software version to 3.6.0; elution profile files can be opened in JavaTreeView software.)
-ELution files could be found at https://github.com/LucasHu/Worm-co-frac-data
+# Running EPIC
+The **EPIC** toolkit was initially published here: Hu, L. Z., et al. "EPIC: software toolkit for elution profile-based inference of protein complexes." Nature methods 16.8 (2019): 737-742. [Link to the publication](https://www.nature.com/articles/s41592-019-0461-4)
 
-# EPIC
-## Elution Profile-Based Inference of Protein Complexes
+Forked from the orignial [repository](https://github.com/BaderLab/EPIC), **RunEPIC** aims to provide the code to run **EPIC** locally.
+
+# Environment
+The main function in **EPIC** was implemented in Python, given the headache caused by various libraries, the Anaconda enrionment was used. Simply install Anaconda Python 2.7 version for your convience, and we will start from there.
+
+# Prerequisite
+Let's create 
+
 
 ### Installation
 ##### To install EPIC, first make sure you have Python 2.7 and scikit-learn package installed. Also one correlation score ("wcc") utilizes R to perform computation, thus R and rpy2 should be installed in your computer too. 
